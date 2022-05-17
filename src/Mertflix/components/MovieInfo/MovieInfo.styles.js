@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { IMAGE_BASE_URL, BACKDROP_SIZE } from "../../../config";
-import { screen } from '@testing-library/react';
 
 export const Wrapper = styled.div`
     background: ${({ backdrop }) =>
